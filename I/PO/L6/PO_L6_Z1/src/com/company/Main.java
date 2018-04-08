@@ -1,6 +1,9 @@
 package com.company;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -55,9 +58,12 @@ public class Main {
         System.out.println(">>Metoda zwróciła true, " +
                 "więc poprawnie usunięto elementy listy.");
 
+
         System.out.println();
         System.out.println();
         System.out.println(">>POCZĄTEK TESTÓW LISTY 6");
+        System.out.println("----------TESTY INTERFEJSU" +
+                " SERIALIZABLE----------");
 
         System.out.println(">>Dodaję elementy: 12, 33, 42, 15, 46" +
                 " na koniec listy.");
@@ -91,6 +97,100 @@ public class Main {
         System.out.println(">>Teraz wypisuję zawartość listy zmodyfikowanej: ");
         MyList.printList();
 
+        System.out.println("----------TESTY INTERFEJSU COLLECTION----------");
+
+        // ----------------------------------------------------
+
+        System.out.println("W testach kolekcja 'MyList' to kolekcja, " +
+                "którą testuję.");
+
+        System.out.println(">>Tworzę listę 'toAdd', " +
+                "jako listę elementów: 1, 22, 77, 89, 10");
+        List<Integer> toAdd = new ArrayList<>();
+        toAdd.add(1);
+        toAdd.add(22);
+        toAdd.add(77);
+        toAdd.add(89);
+        toAdd.add(10);
+
+/*
+        System.out.println(">>Tworzę listę 'toCompare'," +
+                "jako listę elementów: 5, 42, 6, 7, 0");
+        List<Integer> toCompare = new ArrayList<>();
+        toCompare.add(5);
+        toCompare.add(42);
+        toCompare.add(6);
+        toCompare.add(7);
+        toCompare.add(0);
+*/
+        System.out.println(">>Używam metody clear, " +
+                "aby usunąć wszystkie elementy z listy MyList.");
+        MyList.clear();
+
+        System.out.println(">>Używam metody isEmpty na MyList, " +
+                "aby sprawdzić czy clear wyczyścił kolekcję: ");
+        System.out.println(MyList.isEmpty());
+
+
+        System.out.println(">>Dodaję do listy MyList: 5, 42, 24");
+        MyList.add(5);
+        MyList.add(42);
+        MyList.add(24);
+
+
+        System.out.println("Dodaję wszystkie elementy z listy toAdd " +
+                "do MyList");
+        MyList.addAll(toAdd);
+
+
+        System.out.println("Lista 'secondMyList' ma teraz kilka elementów " +
+                "z MyList, dzieki metodzie pomocniczej.");
+        Lista secondMyList = new Lista(MyList);
+
+
+        System.out.println("Czy pierwszy element " +
+                "secondMyList jest w liście MyList?");
+        System.out.println(MyList.contains(secondMyList.getElemP()));
+
+        System.out.println("Przez brak implementacji metody iterator" +
+                "poniższe metody nie działają poprawnie.");
+        /*
+        System.out.println("Czy każdy element z secondMyList jest w MyList?");
+        System.out.println(MyList.containsAll(secondMyList));
+
+        System.out.println("Usuwam z MyList pierwszy element secondMyList");
+        MyList.remove(secondMyList.getElemP());
+
+        System.out.println("Czy pierwszy element " +
+                "secondMyList jest w liście MyList?");
+        System.out.println(MyList.contains(secondMyList.getElemP()));
+
+        /*
+        System.out.println("Czy każdy element z secondMyList jest w MyList?");
+        //System.out.println(MyList.containsAll(secondMyList));
+
+
+        System.out.println("Usuwam wszystkie elementy z MyList, " +
+                "które są obecne w toAdd");
+        System.out.println("Przed operacją: ");
+        MyList.printList();
+        System.out.println("Po operacji: ");
+        MyList.removeAll(toAdd);
+        System.out.println("##############");
+        MyList.printList();
+
+        System.out.println("Używam metody retailAll " +
+                "na MyList z argumentem toAdd.");
+        System.out.println("Po wykonaniu metody MyList powinno być puste.");
+        MyList.retainAll(toAdd);
+        */
+
+        System.out.println("Zawartość listy: ");
+        MyList.printList();
+        System.out.println("Ile jest elementów w MyList?");
+        System.out.println(MyList.size());
+
+        // ----------------------------------------------------
         System.out.println(">>KONIEC TESTÓW");
 
     }

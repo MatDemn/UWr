@@ -1,7 +1,10 @@
 package com.company;
 
+import jdk.jshell.spi.ExecutionControl;
+
 import java.io.Serializable;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class Lista<T> implements Serializable, Collection<T> {
 
@@ -15,6 +18,14 @@ public class Lista<T> implements Serializable, Collection<T> {
     {
         elemP = null;
         elemK = null;
+    }
+
+
+    //Metoda stworzona tylko do testów!
+    //Przyczepia wycinek listy do nowej, pustej listy
+    public Lista(Lista<T> lis) {
+        elemP = lis.elemP.getNext().getNext().getNext();
+        elemK = lis.elemK;
     }
 
     public void AddBegin(T val)    // dodanie na początek listy
@@ -168,16 +179,11 @@ public class Lista<T> implements Serializable, Collection<T> {
     }
 
     public void N_elem() // przechodzi do kolejnego elementu
-    {
-        if(elemP.getNext() == null)
+    {/*
+        if(elemP.getNext() == null) {
             System.out.println("#Metoda: KONIEC LISTY");
+        }*/
         elemP = elemP.getNext();
-    }
-
-    public void P_elem() // przechodzi do poprzedniego elementu
-    {
-        if(elemP.getPrev() == null) System.out.println("#Metoda: KONIEC LISTY");
-        elemP = elemP.getPrev();
     }
 
 
@@ -194,6 +200,8 @@ public class Lista<T> implements Serializable, Collection<T> {
         setElemP(temp); // wracam do początku listy, zapisanej w temp
     }
 
+
+    //Metoda licząca elementy w kolekcji
     public int howMany() {
         Node<T> temp;
         int wyn = 0;
@@ -206,6 +214,9 @@ public class Lista<T> implements Serializable, Collection<T> {
         return wyn;
     }
 
+
+    //Metoda niezbędna do implementacji interfejsu Collection<E>
+    //Zwraca tablicę elementów kolekcji
     public Object[] toArray() {
         int howmany = howMany();
         int iter = 0;
@@ -220,6 +231,9 @@ public class Lista<T> implements Serializable, Collection<T> {
         return wyn;
     }
 
+
+    //Metoda niezbędna do implementacji interfejsu Collection<E>
+    //Zwraca tablicę elementów tablicy array
     public Object[] toArray(Object array[]) {
         int howmany = array.length;
         int iter = 0;
@@ -231,19 +245,18 @@ public class Lista<T> implements Serializable, Collection<T> {
         return wyn;
     }
 
-    public boolean removeAll(Collection<?> obj) {
-        return true;
-    }
-
     //------------------------------------------------------------------------
     //------------------------------------------------------------------------
 
 
+    //Dodaje element do kolekcji
     public boolean add(T o){
         AddEnd(o);
         return true;
     }
 
+
+    //Dodaje wszystkie elementy z kolekcji c do aktualnej listy
     public boolean addAll(Collection c){
         for (Object i : c){
             AddEnd((T) i);
@@ -251,18 +264,20 @@ public class Lista<T> implements Serializable, Collection<T> {
         return true;
     }
 
+
+    //Usuwa wszystko z obecnej kolekcji
     public void clear() { // czyści wszystko w kolekcji
-        elemK = elemP;
-        elemP.setValue(null);
-        elemP.setNext(null);
-        elemP.setPrev(null);
+        elemP = null;
+        elemK = null;
     }
 
-    public boolean contains(Object o){ // czy kolekcja zawiera element?
+
+    //Sprawdza czy obiekt należy do listy
+    public boolean contains(Object o){
         Node<T> temp;
         temp = elemP;
         while(elemP != null) {
-            if(elemP == o) {
+            if(elemP.equals(o)) {
                 elemP = temp;
                 return true;}
             N_elem();
@@ -271,43 +286,107 @@ public class Lista<T> implements Serializable, Collection<T> {
         return false;
     }
 
-    public boolean containsAll(Collection o){ // czy kolekcja zawiera
-        // wszystkie elementy kolekcji o?
+
+    //Sprawdza czy wszystkie elementy kolekcji o należą do listy
+    public boolean containsAll(Collection o){
         for(Object i: o) {
             if(!contains(i)) return false;
         }
         return true;
     }
 
+
+    //Sprawdza czy lista jest pusta
     public boolean isEmpty(){ // czy kolekcja jest pusta?
         return IsEmpty();
     }
 
-    public Iterator iterator(){ //
+
+    //Nie zostało zaimplementowane
+    public Iterator iterator(){
+        System.out.println("Nie jest zaimplementowane.");
         return null;
-
     }
 
-    public boolean remove(Object o){ // usuwa obiekt o z kolekcji
-        Node<T> temp;
-        temp = elemP;
-        while(elemP != null) {
 
+    //Usuwa obiekt z listy, jeżeli do niej należy
+    public boolean remove(Object o){
+        if(elemP == null) { // kolekcja pusta
+            System.out.println("Kolekcja jest pusta.");
+            return false;
         }
-        elemP = temp;
+        else { // kolekcja ma przynajmniej jeden element
+            Node<T> temp;
+            temp = elemP;
+            if(elemP.getValue() == (T) o) { // czy pierwszy element jest równy szukanemu?
+                elemP = elemP.getNext();
+                return true;
+            }
+            if(elemK.getValue() == (T) o) { // czy ostatni element jest równy szukanemu?
+                elemK = elemK.getPrev();
+                return true;
+            }
+            while(elemP != null) {
+                if(elemP.getValue() == (T) o) {
+                    elemP.getNext().setPrev(elemP.getPrev());
+                    elemP.getPrev().setNext(elemP.getNext());
+                    elemP = temp;
+                    return true;
+                }
+                N_elem();
+            }
+            elemP = temp;
+            return false;
+        }
     }
 
-    public boolean removeAll(Collection o){ // przeciwieństwo retain, jeśli element jest w c, usuwa go z this
+
+    //Usuwa wszystkie te elementy, które należą do kolekji o
+    public boolean removeAll(Collection o){
+        int licznik = 0;
+        for(Object i: o) {
+            if(remove(o)) licznik++;
+        }
+        if(licznik == o.size()) return true;
         return false;
     }
 
-    public boolean retainAll(Collection o){ // ma zachowywać te elementy, któe są w collection o, a usuwać te co ich nie ma
-        return false;
+
+    //Usuwa z listy wszystkie te elementy, których nie ma w kolekcji o
+    public boolean retainAll(Collection o) {
+        boolean kontrol = false;
+
+        if(elemP == null) { // kolekcja pusta
+            System.out.println("Kolekcja jest pusta.");
+            return kontrol;
+        }
+        else { // kolekcja ma przynajmniej jeden element
+            Node<T> temp;
+            temp = elemP;
+            if(!o.contains(elemP)) { // czy pierwszy element jest równy szukanemu?
+                elemP = elemP.getNext();
+                return true;
+            }
+            if(!o.contains(elemK)) { // czy ostatni element jest równy szukanemu?
+                elemK = elemK.getPrev();
+                return true;
+            }
+            while (elemP != null) {
+                if (!o.contains(elemP)) {
+                    elemP.getNext().setPrev(elemP.getPrev());
+                    elemP.getPrev().setNext(elemP.getNext());
+                }
+                N_elem();
+            }
+            elemP = temp;
+        }
+        return kontrol;
     }
 
-    public int size(){ //zwraca wielkość kolekcji
-        return 1;
-    }
 
+    //Zwraca wielkość listy
+    public int size(){
+        return howMany();
     }
 }
+

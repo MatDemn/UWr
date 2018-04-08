@@ -14,6 +14,13 @@ public class Node<T>  implements Serializable {
         value = null;
     }
 
+    public Node(T val) // konstruktor node, elementu listy
+    {
+        next = null;
+        prev = null;
+        value = val;
+    }
+
     public T getValue() { return value; }
     public Node<T> getNext() { return next; }
     public Node<T> getPrev() { return prev; }
