@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage{amsfonts}
+\usepackage{indentfirst}
+
+\begin{document}
+
+\title{
+\textbf{Pracownia Programowania Obiektowego\\}
+\textbf{Lista nr 7 - 15.04.2018\\}
+\textbf{Język programowania:} Java\\
+\textbf{OS:} Windows 10 Enterprise 64-bit\\
+\textbf{IDE i kompilator:} IntelliJ IDEA\\
+Opis implementacji zadań z listy 7
+}
+
+\author {Mateusz Zając, 298654}
+
+\date {15.04.2018} 
+
+\maketitle
+
+\newpage
+
+\section{Podstawy implementacji klas}
+
+Przed przystąpieniem do realizacji zadań z listy musimy utworzyć odpowiednią hierarchię klas.
+Naszą klasą abstrakcyjną, po której dziedziczą obie podklasy jest \textbf{\textit{Figura}}.
+Wspólną częścią podklas \textbf{\textit{Okrag}} oraz \textbf{\textit{Trojkat}} są pola:
+\begin{itemize}
+\item \textbf{\textit{String name}} - nazwa figury
+\item \textit{\textbf{String colour}} - kolor figury
+\end{itemize}
+Pozostałe pola:
+\begin{itemize}
+\item \textbf{\textit{double radius}} (pole klasy \textbf{\textit{Okrag}}) - promień okręgu
+\item \textbf{\textit{double base}} (pole klasy \textbf{\textit{Trojkat}}) - podstawa trójkąta
+\item \textbf{\textit{double height}} (pole klasy \textbf{\textit{Trojkat}}) - wysokość trójkąta
+\end{itemize}
+
+Z tak utworzoną hierarchią możemy przystąpić do właściwej części listy zadań.
+
+\section{Pierwsza część}
+
+	Pierwsza część polega na implementacji interfejsu do edycji obiektów. Dzięki bibliotece \textbf{\textit{Swing}} mamy możliwość wyświetlenia na ekranie okna dialogowego z odpowiednimi polami tekstowymi i przyciskami, które są niezbędne do edycji pól obiektu. Wymagany z zadaniu interfejs jest realizowany przy pomocy metody \textbf{\textit{guiFig}} odpowiednio klas \textbf{\textit{Okrag}} i \textbf{\textit{Trojkat}}. Na początku metoda wywołuje \textbf{\textit{loadObject}}, opisaną w drugiej części zadania. Wczytujemy z pliku obiekt do edycji. Kolejne linijki metody mają na celu zdefiniowanie pól edycji, ich etykiet oraz przycisku potwierdzającego zapis wpisanych danych do pól obiektu. Do obiektu \textbf{\textit{but1}} (przycisku ,,zapisz'') dopisujemy ,,słuchacza''. Dzięki niemu kiedy tylko użytkownik naciśnie przycisk, zostanie wywołane parsowanie zawartości pól i ich zapis (za pomocą metody \textbf{\textit{saveObject}}). Argument przekazywany do metody \textbf{\textit{guiFig}} jest używany do określenia jaki plik ma czytać program i do jakiego pliku po edycji ma zapisywać nowe wartości pól.
+	
+\section{Druga część}
+
+	Druga część zadania to implementacja interfejsu \textbf{\textit{Serializable}} razem z metodami służącymi do zapisu oraz odczytu obiektów z pliku:
+	\begin{itemize}
+	\item \textbf{\textit{loadObject(String s)}} - Czyta plik o nazwie podanej z argumencie. Jeżeli podany plik nie istnieje, inicjowany jest nowy obiekt z domyślnymi wartościami pól. 
+	\item \textbf{\textit{saveObject(String s)}} - Zapisuje obiekt do pliku o nazwie podanej w argumencie. 
+	\end{itemize}
+
+\section{Uruchomienie programu}
+
+	W celu uruchomienia programu musimy poza wywołaniem pliku wykonalnego programu z linii poleceń podać także nazwę szukanego pliku z zapisanym obiektem (bez rozszerzenia) oraz nazwę klasy obiektu, który jest zawarty w pliku.
+	
+	 
+\end{document}
