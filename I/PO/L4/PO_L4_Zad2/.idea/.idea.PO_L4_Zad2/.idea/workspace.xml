@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62c41f99-4ba9-416e-86ec-69919ac59896" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+                <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+                <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+                <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+                <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeCollection.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+              <folding>
+                <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+                <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+                <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+                <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+                <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+                <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+                <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+                <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+                <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+                <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+                <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PO_L4_Zad2/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PO_L4_Zad2/MyList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PO_L4_Zad2/Properties/PrimeCollection.cs" />
+        <option value="$PROJECT_DIR$/PO_L4_Zad2/MyList.cs" />
+        <option value="$PROJECT_DIR$/PO_L4_Zad2/Node.cs" />
+        <option value="$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs" />
+        <option value="$PROJECT_DIR$/PO_L4_Zad2/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="7" />
+    <option name="width" value="694" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PO_L4_Zad2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PO_2/PO_2.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/PO_L4_Zad2/bin/Debug/PO_L4_Zad2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PO_L4_Zad2/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/PO_L4_Zad2/PO_L4_Zad2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v3.5" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62c41f99-4ba9-416e-86ec-69919ac59896" name="Default" comment="" />
+      <created>1521737578780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521737578780</updated>
+      <workItem from="1521737580127" duration="6869000" />
+      <workItem from="1521752806102" duration="1578000" />
+      <workItem from="1521754953349" duration="600000" />
+      <workItem from="1521789336498" duration="3321000" />
+      <workItem from="1521926579349" duration="714000" />
+      <workItem from="1521982591225" duration="1553000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14635000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16481775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1264706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+            <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+            <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+            <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+            <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+            <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+            <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+            <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+            <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+            <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+          <folding>
+            <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+            <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+            <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+            <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+            <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+            <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+            <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+            <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+            <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+            <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+            <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+            <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+            <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+            <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+            <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+            <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+            <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+            <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+            <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+            <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+            <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+            <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+            <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+            <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+            <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+            <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+            <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Properties/PrimeCollection.cs" />
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/MyList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="5" lean-forward="false" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <marker date="1521985062696" expanded="true" signature="0:117" ph="/* Mateusz Zając ... */" />
+            <marker date="1521985062696" expanded="true" signature="125:174" ph="..." />
+            <marker date="1521985062696" expanded="true" signature="196:796" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="225:794" ph="{...}" />
+            <marker date="1521985062696" expanded="true" signature="278:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO_L4_Zad2/PrimeCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <marker date="1521984778196" expanded="true" signature="0:125" ph="/* Mateusz Zając ... */" />
+            <marker date="1521984778196" expanded="true" signature="174:1952" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="181:280" ph="/// Klasa pomocnicza, do wyliczania kolejnych liczb pierwszych ... " />
+            <marker date="1521984778196" expanded="true" signature="321:1670" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="345:404" ph="/// Pola klasy ... " />
+            <marker date="1521984778196" expanded="true" signature="454:544" ph="/// Konstruktor obiektu klasy PrimeCollection ... " />
+            <marker date="1521984778196" expanded="true" signature="572:603" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="622:781" ph="/// Sprawdenie czy liczba int n jest pierwsza ... " />
+            <marker date="1521984778196" expanded="true" signature="817:1018" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="909:983" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1037:1126" ph="/// Metoda current do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1156:1206" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1225:1315" ph="/// Metoda movenext do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1351:1483" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1502:1589" ph="/// Metoda reset do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1710:1950" ph="{...}" />
+            <marker date="1521984778196" expanded="true" signature="1725:1845" ph="/// GetEnumerator do interfejsu IEnumerator ... " />
+            <marker date="1521984778196" expanded="true" signature="1888:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

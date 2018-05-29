@@ -9,6 +9,8 @@ public class Trojkat extends Figura implements Serializable  {
     public double height;
     public double base;
 
+
+    //Konstruktor z parametrami.
     Trojkat(String c, String n, double h, double b) {
         super(c, n);
         height = h;
@@ -16,6 +18,8 @@ public class Trojkat extends Figura implements Serializable  {
 
     }
 
+
+    //Metoda zapisująca dane obiektu do pliku.
     public void saveObject(String s) {
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(s+".bin"))) {
             outputStream.writeObject(this);
@@ -24,6 +28,9 @@ public class Trojkat extends Figura implements Serializable  {
             System.out.println("Wystąpił wyjątek.");
         }
     }
+
+
+    //Metoda czytająca z pliku dane obiektu.
     public void loadObject(String s) {
         try (ObjectInputStream input = new ObjectInputStream(new FileInputStream(s+".bin"))) {
             Trojkat readObject = (Trojkat) input.readObject();
@@ -45,6 +52,8 @@ public class Trojkat extends Figura implements Serializable  {
         }
     }
 
+
+    //Metoda odpowiadająca a wyświetlenie interfejsu edycji pól obiektu.
     public void guiFig(String s) {
 
         loadObject(s);

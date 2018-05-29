@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage{amsfonts}
+\usepackage{indentfirst}
+
+\begin{document}
+
+\title{
+\textbf{Pracownia Programowania Obiektowego\\}
+\textbf{Lista nr 5 - 01.04.2018\\}
+\textbf{Język programowania:} Java\\
+\textbf{OS:} Windows 10 Enterprise 64-bit\\
+\textbf{IDE i kompilator:} JetBrains IntelliJ IDEA\\
+\textbf{Project SDK:} Java 10\\
+Opis implementacji zadań 1 oraz 2
+}
+
+\author {Mateusz Zając, 298654}
+
+\date {01.04.2018} 
+
+\maketitle
+
+\newpage
+
+\section{Zadanie 1}
+
+Zadanie polega na zaimplementowaniu kolekcji przechowującej figury w kolejności rosnącej, według ich pól powierzchni. \\
+\textit{(Hierarchia klas dostępna w załączonym schemacie)} \\
+
+\textbf{\textit{Klasa Figura}} - Stanowi schemat tworzenia figur geometrycznych. Jest to klasa abstrakcyjna, ponieważ nie możemy jednoznacznie wyznaczyć pola nieznanej figury, nie znając jej właściwości i kształtu. Zawiera w sobie składowe różnych figur geometrycznych, jednak nie każda podklasa korzysta z wszystkich pól klasy nadrzędnej. 
+
+\textit{Przykładowo: \textbf{\textit{Klasa Trojkat}} korzysta jedynie z pól: \textbf{\textunderscore bok1} oraz \textbf{\textunderscore wysokosc}, ponieważ tylko te parametry są potrzebne aby wyliczyć pole trójkąta.}\\
+
+\textbf{\textit{Klasy: Kolo, Trojkąt, Prostokat, Trapez}} - Obiekty tych klas reprezentują powyższe kształty geometryczne. \\
+
+\textbf{\textit{Klasa FigCollection}} - Służy za przechowywanie elementów Node, tworzenie listy elementów, dodawanie oraz usuwanie z listy. 
+
+Z uwagi, iż kolekcja jest uporządkowana, dodawanie odbywa się na podstawie porządku już istniejącej listy. Algorytm nie wstawia nowego elementu dowolnie, ale porównuje pola poszczególnych elementów i zamieszcza nową figurę we właściwe miejsce.\\ 
+
+
+\textbf{\textit{Klasa Node}} -
+Obiekty przechowują dowolne figury geometryczne, które są określone w programie. W skład obiektu \textbf{\textit{Node}} wchodzi figura oraz odnośnik do kolejnego elementu \textbf{\textit{Node}}, aby zachować porządek i ciągłość struktury danych.
+\newpage
+
+\section{Zadanie 2}
+	
+Zadanie polega na utworzeniu odpowiednich klas, które reprezentować będą podstawowe wyrażenia arytmetyczne tj. +, -, *, / oraz ich wyliczanie.
+
+
+\textbf{\textit{Klasa Wyrazenie}} -
+Główny element programu. Klasa, która jest schematem dla wszystkich zdefiniowanych operacji arytmetycznych. Zawiera w sobie schematy metod dla podklas.\\
+
+\textbf{\textit{Klasy: Add, Sub, Mul, Div}} - Opisują kolejno dodawanie, odejmowanie, mnożenie oraz dzielenie. Przysłaniają metody klasy nadrzędnej \textbf{\textit{Wyrazenie}}, definiując własne metody. Każda z operacji ma inny sposób wypisywania oraz obliczania swoich składowych (\textbf{\textit{\textunderscore leftside}} oraz \textbf{\textit{\textunderscore rightside}}). \\
+
+\textbf{\textit{Klasa Div}} różni się od pozostałych pod względem konstrukcji metody \textbf{\textit{oblicz();}}. Jak wiemy, przy dzieleniu musimy sprawdzić czy mianownik nie jest równy liczbie zero. Dlatego też kiedy metoda napotka w argumencie \textbf{\textit{\textunderscore rightside}} liczbę zero, wyrzuca wyjątek w konsoli, nie zatrzymując przy tym działania programu.\\
+
+\textbf{\textit{Klasa Stala}} - Opisuje stałe, czyli po prostu liczby. Jest to najmniej złożona klasa. Metoda wyliczająca wartość zwraca po prostu jedyne pole klasy.\\
+
+\textbf{\textit{Klasa Zmienna}} - Opisuje zmienne. Do wyliczenia wartości wyszukuje w tablicy haszującej wartość zmiennej i zwraca ją. Jeśli zmienna nie występuje w tablicy, zostaje zwrócony wyjątek.
+	 
+\end{document}

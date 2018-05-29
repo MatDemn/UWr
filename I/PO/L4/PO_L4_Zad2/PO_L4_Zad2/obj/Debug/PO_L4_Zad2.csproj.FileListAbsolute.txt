@@ -1,0 +1,5 @@
+C:\Users\Demon\RiderProjects\PO_L4_Zad2\PO_L4_Zad2\bin\Debug\PO_L4_Zad2.exe
+C:\Users\Demon\RiderProjects\PO_L4_Zad2\PO_L4_Zad2\bin\Debug\PO_L4_Zad2.pdb
+C:\Users\Demon\RiderProjects\PO_L4_Zad2\PO_L4_Zad2\obj\Debug\PO_L4_Zad2.csprojResolveAssemblyReference.cache
+C:\Users\Demon\RiderProjects\PO_L4_Zad2\PO_L4_Zad2\obj\Debug\PO_L4_Zad2.exe
+C:\Users\Demon\RiderProjects\PO_L4_Zad2\PO_L4_Zad2\obj\Debug\PO_L4_Zad2.pdb

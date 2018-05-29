@@ -8,16 +8,22 @@ import java.io.*;
 public class Okrag extends Figura {
     public double radius;
 
+
+    //Konstruktor z argumentami.
     Okrag(String c, String n, double r) {
         super(c, n);
         radius = r;
     }
 
+
+    //Metoda, która definiuje sposób wyświetlania obiektu w konsoli.
     public String toString() {
         return "Parametry okręgu: nazwa: "+name+" kolor: "+
                 colour+" promień: "+radius;
     }
 
+
+    //Metoda zapisująca do pliku nowe dane obiektu.
     public void saveObject(String s) {
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(s+".bin"))) {
             outputStream.writeObject(this);
@@ -26,6 +32,9 @@ public class Okrag extends Figura {
             System.out.println("IOException occured.");
         }
     }
+
+
+    //Metoda czytająca z pliku dane obiektu.
     public void loadObject(String s) {
         try (ObjectInputStream input = new ObjectInputStream(new FileInputStream(s+".bin"))) {
             Okrag readObject = (Okrag) input.readObject();
@@ -46,6 +55,8 @@ public class Okrag extends Figura {
         }
     }
 
+
+    //Metoda wyświetlająca interfejs do edycji pól obiektu.
     public void guiFig(String s) {
         loadObject(s);
 
@@ -70,6 +81,10 @@ public class Okrag extends Figura {
         mainPanel.add(but1);
         frame.setVisible(true);
 
+
+        //Utworzenie "słuchacza".
+        // Dzięki tej części kodu przycisk otrzymuje
+        // możliwość zapisu wprowadzonych danych.
         but1.addActionListener(
                 new ActionListener() {
                     public void actionPerformed(ActionEvent event) {
@@ -78,6 +93,12 @@ public class Okrag extends Figura {
                             colour = Tcolour.getText();
                             radius = Double.parseDouble(Tradius.getText());
                             saveObject(s);
+                            JOptionPane.showMessageDialog(frame,
+                                    "Object saved.");
+                            JOptionPane.showMessageDialog(frame,
+                                    "Nazwa: "+name+
+                                            " kolor: "+colour+
+                                            " promień: "+radius);
                         }
                     }
                 }

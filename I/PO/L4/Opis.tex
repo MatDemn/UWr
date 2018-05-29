@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage{amsfonts}
+\usepackage{indentfirst}
+
+\begin{document}
+
+\title{
+\textbf{Pracownia Programowania Obiektowego\\}
+\textbf{Lista nr 4 - 23.03.2018\\}
+\textbf{Język programowania:} \(C^{\#}\)\\
+\textbf{OS:} Windows 10 Enterprise 64-bit\\
+\textbf{IDE i kompilator:} JetBrains Raider\\
+\textbf{Target framework:} .NETFramework, version: 3.5\\
+Opis implementacji zadań 2 oraz 4
+}
+
+\author {Mateusz Zając, 298654}
+
+\date {23.03.2018} 
+
+\maketitle
+
+\newpage
+
+\section{Zadanie 2}
+
+	Zadanie polega na utworzeniu kolekcji \textbf{\textit{PrimeCollection}}, która ,,w locie'' wylicza kolejne liczby pierwsze. Każdy obrót pętli \textbf{foreach} powoduje wyświetlenie następnej liczby pierwszej, aż do osiągnięcia zakresu typu \textbf{int}. Implementacja używa interfejsu \textbf{IEnumerator}, aby móc wykorzystać pętlę \textbf{foreach}, która jest wymagana w poleceniu zadania. \\
+	Rozpoczynając od liczby \textbf{2}, pętla po tym wypisze kolejno liczby: \textbf{3, 5, 7} itd.\\
+	
+	Pole występujące w klasie \textbf{\textit{Prime\textunderscore Num}}:
+	\begin{itemize}
+	\item \textbf{int n} - zawiera informację o aktualnie badanej liczbie pierwszej;
+	\end{itemize}
+	
+
+\newpage
+
+\section{Zadanie 4}
+	Zadanie polega na utworzeniu generatora, który będzie tworzył słowa za pomocą operacji gramatyki bezkontekstowej. Innymi słowy, program przy pomocy zdefiniowanych operacji gramatyki \(\mathbb{G}\) generuje poprawne słowa tejże gramatyki.\\
+
+	 Niech \(\mathbb{G} = \{ \mathbb{N}, \mathbb{T}, \mathbb{P}, \mathbb{S}\}\) będzie rozpatrywaną gramatyką bezkontekstową.\\
+	 Wtedy kolejno: \\
+	 \begin{itemize}
+	 \item \(\mathbb{N} = \{ \mathbb{S} \}\) - Zbiór nieterminali
+	 \item \(\mathbb{T} = \{ a, b, c, d \} \) - Zbiór terminali
+	 \item \(\mathbb{P} = \{ 
+	 	\mathbb{S} \longrightarrow a\mathbb{S}b, \mathbb{S} \longrightarrow c\mathbb{S}d, 
+	 	\mathbb{S} \longrightarrow \mathbb{S}\mathbb{S}, \mathbb{S} \longrightarrow \varepsilon
+	 	\}\) - Zbiór produkcji
+	 \item \(\mathbb{S}\) - Symbol startowy (wyróżniony)
+	 \item \(\varepsilon\) - Symbol słowa pustego, w programie oznaczany także jako: \textbf{*}
+	 \end{itemize}
+	 
+	 Klasa \textbf{\textit{Productions}} odpowiada za każdy pojedynczy element wygenerowanego słowa. Przykładowo, w słowie:
+	 \(a\mathbb{S}b\), są obecne obiekty o wartościach: \(a\), \(\mathbb{S}\) oraz \(b\).\\
+	 \textit{(Schemat tworzenia słów dostępny w załączniku)}\\
+	 
+	 
+	 Pola klasy \textbf{\textit{Productions}}: 
+	 \begin{itemize}
+	 \item \textbf{string value;} - wartość obiektu, jeden z terminali lub nieterminali
+     \item \textbf{Productions prev;} - odnośnik do kolejnego elementu słowa
+     \item \textbf{Productions next;} - odnośnik do poprzedniego elementu słowa
+	 \end{itemize}
+	 
+	 
+	 Klasa \textbf{\textit{Lista}} odpowiada za produkcję słów w gramatyce. Tablica obiektu tej klasy zawiera w sobie referencje do każdego obecnego w słowie symbolu startowego \(\mathbb{S}\). Dowiązane zaś do tych elementów ciągi znaków terminali mogą być dowolnie długie. W przykładzie: \(acac\mathbb{S}dbdb\) jedyną referencją jest środkowy symbol \(\mathbb{S}\). Pozostałe elementy są dowiązane do elementu startowego.\\ 
+	 \newpage
+	 
+	 Pola klasy \textbf{\textit{Lista}}: 
+	 \begin{itemize}
+	 \item \textbf{Productions[ ] listOfProductions;} - tablica mająca w sobie referencje do wszystkich         \(\mathbb{S}\);
+     \item \textbf{int lastAdded;} - indeks ostatnio dodanego elementu tablicy;
+     \item \textbf{int indexer;} - indeks odpowiadający za przejście po kolejnych elementach tablicy;
+     \item \textbf{int listSize;} - wielkość listy;
+	 \end{itemize}
+	 
+\end{document}
