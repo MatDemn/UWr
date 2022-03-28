@@ -1,0 +1,53 @@
+db.ksiazka.insert(
+	[
+		{ _id : 1, isbn: "BG12-6HAW-IGHN", tytul: "Medycyna konwencjonalna", autor: "Jerzy Zięba", rok: 2020, cena: 999.99, wyp_ost_miesiac: 0 },
+		{ _id : 2, isbn: "HWAD-0126-KKLM", tytul: "Raport uznajacy bezpieczenstwo szczepionek", autor: "Justyna Socha", rok: 2019, cena: 199.99, wyp_ost_miesiac: 0 }
+	]
+);
+
+db.egzemplarz.insert(
+	[
+		{ _id: 1, sygnatura: "S0001", _idKsiazka: 2},
+		{ _id: 2, sygnatura: "S0002", _idKsiazka: 2},
+		{ _id: 3, sygnatura: "S0003", _idKsiazka: 1},
+	]
+);
+
+db.czytelnik.insert(
+	[
+		{ _id: 1, pesel: 25724162389, nazwisko: "Kowalski", miasto: "Kraków", data_ur: "01-09-1990", ost_wypozyczenie: "01-01-2020" },
+		{ _id: 2, pesel: 12623284361, nazwisko: "Malinowski", miasto: "Warszawa", data_ur: "16-01-1982", ost_wypozyczenie: "01-01-2018" },
+	]
+);
+
+db.wypozyczenia.insert(
+	[
+		{ _id: 1, _idCzytelnik: 2, _idEgzemplarz: 1, data: "18-04-2017", liczba_dni: 17 },
+		{ _id: 2, _idCzytelnik: 1, _idEgzemplarz: 3, data: "16-01-2019", liczba_dni: 6 },
+		{ _id: 3, _idCzytelnik: 2, _idEgzemplarz: 1, data: "19-06-2019", liczba_dni: 31 },
+		{ _id: 4, _idCzytelnik: 1, _idEgzemplarz: 2, data: "06-04-2016", liczba_dni: 10 }
+	]
+);
+
+
+db.czytelnik.find( { data_ur: { $regex: [ '1982' ]} } ).pretty();
+db.wypozyczenia.find( { $where: function() {
+	return this._idCzytelnik == 2
+}});
+db.wypozyczenia.find({
+	_idEgzemplarz: 1
+}).count();
+
+Modyfikacje:
+db.wypozyczenia.updateMany( {}, { $rename: { "_idCzytelnikkk": "_idCzytelnik"} } );
+db.czytelnik.update(
+	{ _id: 2 },
+	{$set:
+		{ nazwisko: "Malinowski"}}
+);
+
+Usuniecia
+db.czytelnik.remove( { _id: 40 });
+
+
+

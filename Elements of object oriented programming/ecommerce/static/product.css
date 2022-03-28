@@ -1,0 +1,23 @@
+
+.productView {
+    width: 250px;
+    border: 1px solid black;
+    height: 400px;
+    margin: 5px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+.productOptions {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.productImg {
+    box-sizing: border-box;
+    width: 90%;
+    height: 75%;
+    background-color: green;
+    margin: 5px auto;
+}

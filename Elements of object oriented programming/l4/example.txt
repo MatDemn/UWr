@@ -1,0 +1,11 @@
+To jest plik przykładowy
+To jest jego druga linia
+To trzecia linia
+ 
+W poprzedniej linii była spacja, 
+która również powinna zostać wypisana
+
+A teraz test polskich ogonków:
+zażółć gęślą jaźń
+
+I tutaj jest koniec pliku przykładowego.

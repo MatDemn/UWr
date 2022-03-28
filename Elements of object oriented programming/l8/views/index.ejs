@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEPPO_8_2</title>
+</head>
+
+<body>
+    <form method="post" action="/result">
+        <% var fields = ['Imie', 'Nazwisko', 'Plec', 'MiejsceZamieszkania', 'Telefon'];%> 
+        <%  for(var i=0; i<5; i++) { %>
+            <div>
+                <label for=<%- fields[i] %>><%- fields[i] %>:</label>
+            </div>
+            <div>
+                <input type="text" name=<%- fields[i] %> id=<%- fields[i] %>>
+            </div>
+        <%    } %>
+        </div>
+        <div>
+            <input type="submit" value="Wyślij">
+        </div>
+    </form>
+</body>
+
+</html>

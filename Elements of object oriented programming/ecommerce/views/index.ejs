@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" type="text/css" /> 
+    <link rel="stylesheet" href="/product.css" type="text/css" />
+    <link rel="stylesheet" href="/header.css" type="text/css" />
+    <title>Ecommerce Shop :)</title>
+</head>
+
+<body>
+    <%- include('header.ejs') %>
+    <%- //include('menu.ejs') %>
+    <main>
+        <content>
+            <% for(var i = 0; i<15; i++) { %>
+                <%- include("product.ejs") %>
+            <% } %>
+        </content>
+        
+    </main>
+    
+    <%- include('footer.ejs') %>
+</body>
+
+</html>

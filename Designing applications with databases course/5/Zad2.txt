@@ -1,0 +1,107 @@
+CREATE (n:Ksiazka {isbn:"BG12-6HAW-IGHN", tytul: "Medycyna konwencjonalna", autor:"Jerzy Zięba", rok:2020, cena: 999.99, wyp_ost_miesiac: 0}) return n;
+CREATE (n:Ksiazka {isbn:"HWAD-0126-KKLM", tytul: "Raport uznajacy bezpieczenstwo szczepionek", autor:"Justyna Socha", rok:2019, cena: 199.99, wyp_ost_miesiac: 0}) return n;
+
+
+CREATE (n:Egzemplarz {sygnatura: "S0001"}) return n;
+CREATE (n:Egzemplarz {sygnatura: "S0002"}) return n;
+CREATE (n:Egzemplarz {sygnatura: "S0003"}) return n;
+
+
+CREATE (n:Czytelnik {pesel: 25724162389, nazwisko: "Kowalski", miasto: "Kraków", data_ur: "01-09-1990", ost_wypozyczenie: "01-01-2020" }) return n;
+CREATE (n:Czytelnik {pesel: 12623284361, nazwisko: "Malinowski", miasto: "Warszawa", data_ur: "16-01-1982", ost_wypozyczenie: "01-01-2018"}) return n;
+
+
+CREATE (n:Wypozyczenia {data: "18-04-2017", liczba_dni: 17}) return n;
+CREATE (n:Wypozyczenia {data: "16-01-2019", liczba_dni: 6}) return n;
+CREATE (n:Wypozyczenia {data: "19-06-2019", liczba_dni: 31}) return n;
+CREATE (n:Wypozyczenia {data: "06-04-2016", liczba_dni: 10}) return n;
+
+
+MATCH (a:Egzemplarz),(b:Ksiazka)
+WHERE a.sygnatura = "S0001" AND b.isbn = "HWAD-0126-KKLM"
+CREATE (a)-[r:jestEgzemplarzem]->(b)
+RETURN a, b;
+
+MATCH (a:Egzemplarz),(b:Ksiazka)
+WHERE a.sygnatura = "S0002" AND b.isbn = "HWAD-0126-KKLM"
+CREATE (a)-[r:jestEgzemplarzem]->(b)
+RETURN a, b;
+
+MATCH (a:Egzemplarz),(b:Ksiazka)
+WHERE a.sygnatura = "S0003" AND b.isbn = "BG12-6HAW-IGHN"
+CREATE (a)-[r:jestEgzemplarzem]->(b)
+RETURN a, b;
+
+MATCH (a:Egzemplarz),(b:Wypozyczenia)
+WHERE a.sygnatura = "S0001" AND b.data = "18-04-2017"
+CREATE (a)-[r:jestWypozyczany]->(b)
+RETURN a, b;
+
+MATCH (a:Egzemplarz),(b:Wypozyczenia)
+WHERE a.sygnatura = "S0003" AND b.data = "16-01-2019"
+CREATE (a)-[r:jestWypozyczany]->(b)
+RETURN a, b;
+
+MATCH (a:Egzemplarz),(b:Wypozyczenia)
+WHERE a.sygnatura = "S0001" AND b.data = "19-06-2019"
+CREATE (a)-[r:jestWypozyczany]->(b)
+RETURN a, b;
+
+MATCH (a:Egzemplarz),(b:Wypozyczenia)
+WHERE a.sygnatura = "S0002" AND b.data = "06-04-2016"
+CREATE (a)-[r:jestWypozyczany]->(b)
+RETURN a, b;
+
+MATCH (a:Czytelnik),(b:Wypozyczenia)
+WHERE a.nazwisko = "Malinowski" AND b.data = "18-04-2017"
+CREATE (a)-[r:dokonujeWypozyczenia]->(b)
+RETURN a, b;
+
+MATCH (a:Czytelnik),(b:Wypozyczenia)
+WHERE a.nazwisko = "Malinowski" AND b.data = "19-06-2019"
+CREATE (a)-[r:dokonujeWypozyczenia]->(b)
+RETURN a, b;
+
+MATCH (a:Czytelnik),(b:Wypozyczenia)
+WHERE a.nazwisko = "Kowalski" AND b.data = "16-01-2019"
+CREATE (a)-[r:dokonujeWypozyczenia]->(b)
+RETURN a, b;
+
+MATCH (a:Czytelnik),(b:Wypozyczenia)
+WHERE a.nazwisko = "Kowalski" AND b.data = "06-04-2016"
+CREATE (a)-[r:dokonujeWypozyczenia]->(b)
+RETURN a, b;
+
+ZAPYTANIA:
+
+MATCH (a:Czytelnik)
+WHERE RIGHT(a.data_ur,4) = "1982"
+RETURN a;
+
+MATCH (a)-[:jestEgzemplarzem]-(b) 
+WHERE a.sygnatura = "S0001"
+RETURN a, b;
+
+MATCH (a:Ksiazka)
+WHERE a.rok<2020
+RETURN a;
+
+MODYFIKACJA:
+
+MATCH (a:Czytelnik {nazwisko: "Malinowski"})
+SET a.nazwisko = "Taylor"
+RETURN a;
+
+MATCH (a:Czytelnik {nazwisko: "Malinowski"})
+SET a.nazwisko = "Taylor"
+RETURN a;
+
+USNIECIE:
+
+CREATE (n:Czytelnik {pesel: 0, nazwisko: "K", miasto: "K", data_ur: "1990", ost_wypozyczenie: "2020" }) return n;
+
+MATCH (a:Czytelnik)
+WHERE a.pesel = 0
+DELETE a;
+
+

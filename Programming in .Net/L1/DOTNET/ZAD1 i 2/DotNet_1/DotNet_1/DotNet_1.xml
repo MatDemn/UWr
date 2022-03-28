@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNet_1</name>
+    </assembly>
+    <members>
+        <member name="M:DotNet_1.Start.Run1(System.Int32)">
+            <summary>
+            Wywołanie obliczeń dla zadania 1.
+            </summary>
+            <param name="end">Ilość elementów do sprawdzenia (>2).</param>
+        </member>
+        <member name="M:DotNet_1.Start.Main(System.String[])">
+            <summary>
+            Główna funkcja programu, startup.
+            </summary>
+            <param name="args">Argumenty uruchomienia.</param>
+        </member>
+        <member name="M:DotNet_1.ZAD1.splitIntoDigits_arith(System.Int32)">
+            <summary>
+            Rozbija inta na listę intów (lista cyfr inta).
+            </summary>
+            <param name="x">Liczba, której cyfry mają zostać włożone do tablicy.</param>
+            <returns>Zwraca listę cyfr liczby.</returns>
+        </member>
+        <member name="M:DotNet_1.ZAD1.divisibleByDigits(System.Int32)">
+            <summary>
+            Czy int jest podzielny przez jego cyfry.
+            </summary>
+            <param name="x">Liczba do sprawdzenia.</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:DotNet_1.ZAD1.divisibleBySumOfDigits(System.Int32)">
+            <summary>
+            Czy int jest podzielny przez sumę jego cyfr.
+            </summary>
+            <param name="x">Liczba do sprawdzenia.</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="P:DotNet_1.Grid.Item(System.Int32,System.Int32)">
+            <summary>
+            Indekser dwuwymiarowy klasy.
+            </summary>
+            <param name="x">Wysokość</param>
+            <param name="y">Szerokość</param>
+            <returns>Zwraca element [x][y]</returns>
+        </member>
+        <member name="P:DotNet_1.Grid.Item(System.Int32)">
+            <summary>
+            Indekser jednowymiarowy klasy.
+            </summary>
+            <param name="x">Tablica, któa ma zostać zwrócona.</param>
+            <returns>Zwraca tablicę o indeksie x.</returns>
+        </member>
+        <member name="M:DotNet_1.Grid.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Konstruktor klasy Grid.
+            </summary>
+            <param name="x">Wysokość grida</param>
+            <param name="y">Szerokość grida</param>
+        </member>
+        <member name="M:DotNet_1.Grid.printArray(System.Int32[])">
+            <summary>
+            Wyświetla elementy tablicy.
+            </summary>
+            <param name="x">Tablica, której elementy mają zostać wyświetlone.</param>
+        </member>
+    </members>
+</doc>

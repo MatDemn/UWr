@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="divisibleByDigits method" Url="html/c8eeba8e-7e3e-8a0d-4738-3085720c4041.htm" />
+  <HelpKINode Title="divisibleBySumOfDigits method" Url="html/cc3ce9c9-4c79-c4e9-6a26-a9191bea5a91.htm" />
+  <HelpKINode Title="DotNet_1 namespace" Url="html/17187318-f5ef-f31e-6c9b-b32e7a4e803f.htm" />
+  <HelpKINode Title="DotNet_1.Grid class" Url="html/a1dc3548-fd2e-b4fa-ff2d-67c44487d60d.htm" />
+  <HelpKINode Title="DotNet_1.Start class" Url="html/9f2bcde6-16ab-8202-6d4a-e8c0bfc6675d.htm" />
+  <HelpKINode Title="DotNet_1.ZAD1 class" Url="html/607a09b3-8ea8-6774-4b05-432d16e9e801.htm" />
+  <HelpKINode Title="Grid class">
+    <HelpKINode Title="Grid Class" Url="html/a1dc3548-fd2e-b4fa-ff2d-67c44487d60d.htm" />
+    <HelpKINode Title="constructor" Url="html/b22ab1d8-e15d-3ebd-c2ed-0df74289359e.htm" />
+    <HelpKINode Title="fields" Url="html/b9983896-861f-d3fb-e609-b52ab0800edb.htm" />
+    <HelpKINode Title="methods" Url="html/0d998e43-f0ab-fd82-56d6-e34dd6f03ebc.htm" />
+    <HelpKINode Title="properties" Url="html/f70f5fac-9eca-bd03-0acd-cb5428ad9926.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Grid.Grid constructor" Url="html/b22ab1d8-e15d-3ebd-c2ed-0df74289359e.htm" />
+  <HelpKINode Title="Grid.Item property" Url="html/d56c7d59-1dc8-a86c-d1e4-10bb6ea694ba.htm" />
+  <HelpKINode Title="Grid.list field" Url="html/88471b11-01c9-50bd-d0ae-2fd6445533e3.htm" />
+  <HelpKINode Title="Grid.printArray method" Url="html/3a8ef037-83dd-4123-9a8b-0ef6976acf88.htm" />
+  <HelpKINode Title="Grid.X field" Url="html/5c697970-7492-1a63-70a1-b5849fe05b88.htm" />
+  <HelpKINode Title="Grid.Y field" Url="html/225be577-64cb-3bd3-0705-bd8c44457743.htm" />
+  <HelpKINode Title="Item property" Url="html/d56c7d59-1dc8-a86c-d1e4-10bb6ea694ba.htm" />
+  <HelpKINode Title="list field" Url="html/88471b11-01c9-50bd-d0ae-2fd6445533e3.htm" />
+  <HelpKINode Title="Main method" Url="html/903baedb-7ea2-9212-36ff-fcae5297f229.htm" />
+  <HelpKINode Title="printArray method" Url="html/3a8ef037-83dd-4123-9a8b-0ef6976acf88.htm" />
+  <HelpKINode Title="Run1 method" Url="html/1338307d-2042-b3b9-d869-4a39bb495017.htm" />
+  <HelpKINode Title="splitIntoDigits_arith method" Url="html/38ffdb81-6acb-fff2-0a00-d43bd72ed097.htm" />
+  <HelpKINode Title="Start class">
+    <HelpKINode Title="Start Class" Url="html/9f2bcde6-16ab-8202-6d4a-e8c0bfc6675d.htm" />
+    <HelpKINode Title="constructor" Url="html/2eab6948-5a9a-5f9a-be9f-6bc08b4912ee.htm" />
+    <HelpKINode Title="methods" Url="html/bcf53bbc-9fa1-7d83-6d41-7240f2567034.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Start.Main method" Url="html/903baedb-7ea2-9212-36ff-fcae5297f229.htm" />
+  <HelpKINode Title="Start.Run1 method" Url="html/1338307d-2042-b3b9-d869-4a39bb495017.htm" />
+  <HelpKINode Title="Start.Start constructor" Url="html/2eab6948-5a9a-5f9a-be9f-6bc08b4912ee.htm" />
+  <HelpKINode Title="X field" Url="html/5c697970-7492-1a63-70a1-b5849fe05b88.htm" />
+  <HelpKINode Title="Y field" Url="html/225be577-64cb-3bd3-0705-bd8c44457743.htm" />
+  <HelpKINode Title="ZAD1 class">
+    <HelpKINode Title="ZAD1 Class" Url="html/607a09b3-8ea8-6774-4b05-432d16e9e801.htm" />
+    <HelpKINode Title="constructor" Url="html/e14cd524-c705-9a96-24dc-ca7606af496c.htm" />
+    <HelpKINode Title="methods" Url="html/7811f60d-b9c0-1489-c6e9-9d9db7215a09.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ZAD1.divisibleByDigits method" Url="html/c8eeba8e-7e3e-8a0d-4738-3085720c4041.htm" />
+  <HelpKINode Title="ZAD1.divisibleBySumOfDigits method" Url="html/cc3ce9c9-4c79-c4e9-6a26-a9191bea5a91.htm" />
+  <HelpKINode Title="ZAD1.splitIntoDigits_arith method" Url="html/38ffdb81-6acb-fff2-0a00-d43bd72ed097.htm" />
+  <HelpKINode Title="ZAD1.ZAD1 constructor" Url="html/e14cd524-c705-9a96-24dc-ca7606af496c.htm" />
+</HelpKI>

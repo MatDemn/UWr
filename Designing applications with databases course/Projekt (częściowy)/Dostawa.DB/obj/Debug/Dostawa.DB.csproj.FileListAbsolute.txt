@@ -1,0 +1,6 @@
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Dostawa.DB\obj\Debug\Dostawa.DB.csproj.CoreCompileInputs.cache
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Dostawa.DB\bin\Debug\Dostawa.DB.dll.config
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Dostawa.DB\bin\Debug\Dostawa.DB.dll
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Dostawa.DB\bin\Debug\Dostawa.DB.pdb
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Dostawa.DB\obj\Debug\Dostawa.DB.dll
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Dostawa.DB\obj\Debug\Dostawa.DB.pdb

@@ -1,0 +1,4 @@
+        public bool AreNotAcceptedComments()
+        {
+            return Comments.Count() == 0 || Comments.Any<Comment>(c => !c.IsAccepted);
+        }

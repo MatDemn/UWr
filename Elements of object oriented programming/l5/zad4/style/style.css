@@ -1,0 +1,26 @@
+input.zad {
+	width: 15px;
+}
+
+div#error {
+	background-color: red;
+	width: 200px;
+}
+
+table {
+	border: 1px solid black;
+}
+
+th {
+	border: 1px solid black;
+	height: 30px;
+	width: 50px;
+	text-align: center;
+}
+
+td {
+	border: 1px solid black;
+	height: 30px;
+	width: 50px;
+	text-align: center;
+}

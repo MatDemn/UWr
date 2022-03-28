@@ -1,0 +1,17 @@
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.ObjectMothers.dll
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.ObjectMothers.pdb
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.Domain.dll
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.Domain.pdb
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.csprojResolveAssemblyReference.cache
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.csproj.CoreCompileInputs.cache
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.dll
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.pdb
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.ObjectMothers.dll
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.ObjectMothers.pdb
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.Domain.dll
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\bin\Debug\Blog.Domain.pdb
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.csprojAssemblyReference.cache
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.csproj.CoreCompileInputs.cache
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.csproj.CopyComplete
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.dll
+D:\Downloads\db-11-ddd\db-11-ddd\DDDSample\Blog.ObjectMothers\obj\Debug\Blog.ObjectMothers.pdb

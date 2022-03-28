@@ -1,0 +1,6 @@
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.Domain\bin\Debug\Blog.Domain.dll
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.Domain\bin\Debug\Blog.Domain.pdb
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.Domain\obj\Debug\Blog.Domain.csprojResolveAssemblyReference.cache
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.Domain\obj\Debug\Blog.Domain.csproj.CoreCompileInputs.cache
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.Domain\obj\Debug\Blog.Domain.dll
+c:\Data\Dydaktyka\II\2017-2018\KursBD\przyklady\DDDSample\Blog.Domain\obj\Debug\Blog.Domain.pdb

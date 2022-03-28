@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="4ef42649-2dcd-4e9f-9458-3bd00d2b711a" Title="DotNet_1" Url="html/17187318-f5ef-f31e-6c9b-b32e7a4e803f.htm">
+    <HelpTOCNode Id="7c2810af-71e8-4f42-ae55-292397afc936" Title="Grid Class" Url="html/a1dc3548-fd2e-b4fa-ff2d-67c44487d60d.htm">
+      <HelpTOCNode Title="Grid Constructor " Url="html/b22ab1d8-e15d-3ebd-c2ed-0df74289359e.htm" />
+      <HelpTOCNode Id="c8956be1-7094-42c9-9bc4-3093b6797ee1" Title="Grid Properties" Url="html/f70f5fac-9eca-bd03-0acd-cb5428ad9926.htm">
+        <HelpTOCNode Id="d3cf4e0b-017b-461e-b5de-57e40606cca2" Title="Item Property " Url="html/d56c7d59-1dc8-a86c-d1e4-10bb6ea694ba.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/1fcff9f1-2d89-11c4-865a-603ae3781f44.htm" />
+          <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/2b666f5a-5b4d-1d23-14f0-f44e22919b9c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e83ddec3-3bd0-4828-b30d-b13a74cfbdcf" Title="Grid Methods" Url="html/0d998e43-f0ab-fd82-56d6-e34dd6f03ebc.htm">
+        <HelpTOCNode Title="printArray Method " Url="html/3a8ef037-83dd-4123-9a8b-0ef6976acf88.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="accd2144-90cf-4283-a8b9-33e026ddd0f7" Title="Grid Fields" Url="html/b9983896-861f-d3fb-e609-b52ab0800edb.htm">
+        <HelpTOCNode Title="list Field" Url="html/88471b11-01c9-50bd-d0ae-2fd6445533e3.htm" />
+        <HelpTOCNode Title="X Field" Url="html/5c697970-7492-1a63-70a1-b5849fe05b88.htm" />
+        <HelpTOCNode Title="Y Field" Url="html/225be577-64cb-3bd3-0705-bd8c44457743.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d63e19e-3b06-4142-a3ef-a971fd67e7fa" Title="Start Class" Url="html/9f2bcde6-16ab-8202-6d4a-e8c0bfc6675d.htm">
+      <HelpTOCNode Title="Start Constructor " Url="html/2eab6948-5a9a-5f9a-be9f-6bc08b4912ee.htm" />
+      <HelpTOCNode Id="324b7b7d-949a-4664-b03f-94189917baa1" Title="Start Methods" Url="html/bcf53bbc-9fa1-7d83-6d41-7240f2567034.htm">
+        <HelpTOCNode Title="Main Method " Url="html/903baedb-7ea2-9212-36ff-fcae5297f229.htm" />
+        <HelpTOCNode Title="Run1 Method " Url="html/1338307d-2042-b3b9-d869-4a39bb495017.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bf0c81ed-1442-43fb-9e51-f817e7aad6f1" Title="ZAD1 Class" Url="html/607a09b3-8ea8-6774-4b05-432d16e9e801.htm">
+      <HelpTOCNode Title="ZAD1 Constructor " Url="html/e14cd524-c705-9a96-24dc-ca7606af496c.htm" />
+      <HelpTOCNode Id="9959ad24-8857-48bf-a9c2-85839a02829e" Title="ZAD1 Methods" Url="html/7811f60d-b9c0-1489-c6e9-9d9db7215a09.htm">
+        <HelpTOCNode Title="divisibleByDigits Method " Url="html/c8eeba8e-7e3e-8a0d-4738-3085720c4041.htm" />
+        <HelpTOCNode Title="divisibleBySumOfDigits Method " Url="html/cc3ce9c9-4c79-c4e9-6a26-a9191bea5a91.htm" />
+        <HelpTOCNode Title="splitIntoDigits_arith Method " Url="html/38ffdb81-6acb-fff2-0a00-d43bd72ed097.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

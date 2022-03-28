@@ -1,0 +1,34 @@
+doctype html
+html(lang='pl')
+    head
+        title Formularz deklaracji
+        style
+            include ../style/style.css
+    body
+        form(action='' method='post')
+            table
+                thead
+                    tr
+                        th(colspan='3') Imię
+                        th(colspan='3') Nazwisko
+                        th(colspan='4') Przedmiot
+                tbody
+                    tr
+                        td(colspan='3') 
+                            input(type="text", name="imie")
+                        td(colspan='3')
+                            input(type="text", name="nazwisko")
+                        td(colspan='4')
+                            input(type="text", name="przedmiot")
+                    tr
+                        - for(var i=0; i<10; i++) {
+                            td=i+1
+                        - }
+                    tr
+                        - for(var i=0; i<10; i++) {
+                            td
+                                input(type="text", name="zad" class="zad" maxlength=1)
+                        - }
+            input(type="submit", value="Wydrukuj")
+            div(id="error" hidden=error)
+                h5=errorMsg

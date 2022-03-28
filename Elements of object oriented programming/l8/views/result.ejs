@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEPPO_8_2</title>
+</head>
+
+<body>
+    <div>
+        Wpisane dane:
+        <br />
+        <% for (var elem in fields) { %>
+            <%- elem %>: <%- fields[elem] %>
+            <br />
+        <%} %>
+    </div>
+    <form action="/">
+        <button>Powróć</button>
+    </form>
+</body>
+
+</html>

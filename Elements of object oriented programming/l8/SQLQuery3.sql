@@ -1,0 +1,3 @@
+ALTER TABLE dbo.Osoba
+ADD CONSTRAINT DF_osobaid
+DEFAULT (NEXT VALUE FOR dbo.OsobaSeq) FOR [ID]

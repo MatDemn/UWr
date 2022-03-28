@@ -1,0 +1,14 @@
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.exe
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.deps.json
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.runtimeconfig.json
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.runtimeconfig.dev.json
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.dll
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.pdb
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.csprojAssemblyReference.cache
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.csproj.CoreCompileInputs.cache
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.AssemblyInfoInputs.cache
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.AssemblyInfo.cs
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.dll
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.pdb
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\obj\Debug\netcoreapp3.1\DotNet_1.genruntimeconfig.cache
+d:\Users\Demon\source\repos\DotNet_1\DotNet_1\bin\Debug\netcoreapp3.1\DotNet_1.xml
