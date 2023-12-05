@@ -1,0 +1,10 @@
+abc,zabc,zaabc;
+Spotify,Tidal,Youtube,Tik-Tok,AppleMusic;
+Gravity,poison,venom,fever,temper,scream aim fire;
+Def,return,print,dictionary,import,text,pattern;
+pościel,sklep,funkcja trygonometryczna,abecadło,chiny,baltazar;
+piesek,between,alpha,kometa,quentin,firefox;
+biurko,dyktando,hub,myszka,greenscreen,ładowarka,koparka;
+visual studio,kieliszek,ściana,podkładka,zastawka,szpital,tablica;
+pycharm,ide,komputer,bungee,sklep,wóz,gwiazdozbiór,elektronika;
+statyw,youtube,laptop,igła,nić,żółć,zieleń,jeleń;

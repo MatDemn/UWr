@@ -1,0 +1,10 @@
+extract,extravert,extrawagancja,extraction,extractic,extracritic;extract
+populars,popularly,popular,popularism,popularized;popular
+desks,desktop,desktops,deskman,deskbound,deskilling,desk;desk
+microscopic,microscopical,microscope,microscopes,microscop,microsomes,microsome,microscopy,microorganisms,microbiology,microorganis;microscop
+someone,somewhere,somebody,somewheres,somebodies,someones,somewhat,sometime,somerset,somewh,somersets,somersau;somewh
+games,gamer,gamely,gamester,gamey,gamed,gameness,gamest,gametophyte,gametophytes,gamekeep;games
+stopped,stops,stopping,stopper,stoppage,stoppe,stopover,stoppages,stoppers,stopes,stopovers,stopi;stoppe
+nights,nightly,nighttime,nightfall,nightlife,nightlong,nightmare,nightmares,nightcap,nightl,nightcaps,nighthawk,nightclothes,nighthawks,nightwear,nightcrawler,nightwalker,nightwork,nightbir;nightl
+overs,overhand,overarm,overcome,overhead,overcoming,overthrow,overt,overtime,oversee,overturned,overcame,overtaken,overseeing,overta;overt
+sweetness,sweets,sweetly,sweetest,sweeter,sweetened,sweeteners,sweetener,sweetheart,sweethearts,sweetmeats,sweetening,sweetbreads,sweetish,sweetmeat,sweetens,sweeties,sweetnesses,sweetheart,sweethearts,sweetie,sweeteners,sweeten,sweetener,sweetening,sweetens,sweeties,sweetbreads,sweetbread,sweetpea,sweetbriar,sweetbrier,sweetness,sweetheart,sweets,sweetly,sweetest,sweeter,sweetie,sweetened,sweeteners,sweeten,sweetener,sweetwat;sweetheart

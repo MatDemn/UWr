@@ -1,0 +1,87 @@
+\hypertarget{class__distutils__hack_1_1_distutils_meta_finder}{}\doxysection{\+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder Class Reference}
+\label{class__distutils__hack_1_1_distutils_meta_finder}\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_ae5795c5ef59bc42ffcd9058cc422d07a}{find\+\_\+spec}} (self, fullname, path, target=None)
+\item 
+def \mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_ae2ac8bea7dc268c9de8d9e9478514a76}{spec\+\_\+for\+\_\+distutils}} (self)
+\item 
+def \mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_aa927b4354bae3844b6ec79b0bf57eb6b}{spec\+\_\+for\+\_\+pip}} (self)
+\item 
+def \mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_ad9b4030064c27c321867a8deb231cc6f}{pip\+\_\+imported\+\_\+during\+\_\+build}} (cls)
+\item 
+def \mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_a6efb75ddeb1559cc5503b5a9f79d079d}{is\+\_\+get\+\_\+pip}} (cls)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_a11ae20e459dc59b9765e651464c7829f}{frame\+\_\+file\+\_\+is\+\_\+setup}} (frame)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class__distutils__hack_1_1_distutils_meta_finder_a3662bcc0652c31ad82ae1b55212dfb65}{spec\+\_\+for\+\_\+distutils}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_ae5795c5ef59bc42ffcd9058cc422d07a}\label{class__distutils__hack_1_1_distutils_meta_finder_ae5795c5ef59bc42ffcd9058cc422d07a}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!find\_spec@{find\_spec}}
+\index{find\_spec@{find\_spec}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{find\_spec()}{find\_spec()}}
+{\footnotesize\ttfamily def \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+find\+\_\+spec (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{fullname,  }\item[{}]{path,  }\item[{}]{target = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_a11ae20e459dc59b9765e651464c7829f}\label{class__distutils__hack_1_1_distutils_meta_finder_a11ae20e459dc59b9765e651464c7829f}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!frame\_file\_is\_setup@{frame\_file\_is\_setup}}
+\index{frame\_file\_is\_setup@{frame\_file\_is\_setup}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{frame\_file\_is\_setup()}{frame\_file\_is\_setup()}}
+{\footnotesize\ttfamily def \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+frame\+\_\+file\+\_\+is\+\_\+setup (\begin{DoxyParamCaption}\item[{}]{frame }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb}Return True if the indicated frame suggests a setup.py file.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_a6efb75ddeb1559cc5503b5a9f79d079d}\label{class__distutils__hack_1_1_distutils_meta_finder_a6efb75ddeb1559cc5503b5a9f79d079d}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!is\_get\_pip@{is\_get\_pip}}
+\index{is\_get\_pip@{is\_get\_pip}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{is\_get\_pip()}{is\_get\_pip()}}
+{\footnotesize\ttfamily def \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+is\+\_\+get\+\_\+pip (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Detect if get-pip is being invoked. Ref #2993.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_ad9b4030064c27c321867a8deb231cc6f}\label{class__distutils__hack_1_1_distutils_meta_finder_ad9b4030064c27c321867a8deb231cc6f}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!pip\_imported\_during\_build@{pip\_imported\_during\_build}}
+\index{pip\_imported\_during\_build@{pip\_imported\_during\_build}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{pip\_imported\_during\_build()}{pip\_imported\_during\_build()}}
+{\footnotesize\ttfamily def \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+pip\+\_\+imported\+\_\+during\+\_\+build (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Detect if pip is being imported in a build script. Ref #2355.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_ae2ac8bea7dc268c9de8d9e9478514a76}\label{class__distutils__hack_1_1_distutils_meta_finder_ae2ac8bea7dc268c9de8d9e9478514a76}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!spec\_for\_distutils@{spec\_for\_distutils}}
+\index{spec\_for\_distutils@{spec\_for\_distutils}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{spec\_for\_distutils()}{spec\_for\_distutils()}}
+{\footnotesize\ttfamily def \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+spec\+\_\+for\+\_\+distutils (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_aa927b4354bae3844b6ec79b0bf57eb6b}\label{class__distutils__hack_1_1_distutils_meta_finder_aa927b4354bae3844b6ec79b0bf57eb6b}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!spec\_for\_pip@{spec\_for\_pip}}
+\index{spec\_for\_pip@{spec\_for\_pip}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{spec\_for\_pip()}{spec\_for\_pip()}}
+{\footnotesize\ttfamily def \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+spec\+\_\+for\+\_\+pip (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Ensure stdlib distutils when running under pip.
+See pypa/pip#8761 for rationale.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class__distutils__hack_1_1_distutils_meta_finder_a3662bcc0652c31ad82ae1b55212dfb65}\label{class__distutils__hack_1_1_distutils_meta_finder_a3662bcc0652c31ad82ae1b55212dfb65}} 
+\index{\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}!spec\_for\_distutils@{spec\_for\_distutils}}
+\index{spec\_for\_distutils@{spec\_for\_distutils}!\_distutils\_hack.DistutilsMetaFinder@{\_distutils\_hack.DistutilsMetaFinder}}
+\doxysubsubsection{\texorpdfstring{spec\_for\_distutils}{spec\_for\_distutils}}
+{\footnotesize\ttfamily \+\_\+distutils\+\_\+hack.\+Distutils\+Meta\+Finder.\+spec\+\_\+for\+\_\+distutils}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/adv\+Python/11/venv/\+Lib/site-\/packages/\+\_\+distutils\+\_\+hack/\mbox{\hyperlink{__distutils__hack_2____init_____8py}{\+\_\+\+\_\+init\+\_\+\+\_\+.\+py}}\end{DoxyCompactItemize}

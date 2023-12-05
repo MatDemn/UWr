@@ -1,0 +1,24 @@
+For docs generation I used doxygen GUI, which generates html format documentation with all comments and descriptions.
+
+You can download it from here:
+https://www.doxygen.nl/index.html
+
+After installation, you can use simple wizard to configure docs.
+
+I've filled:
+
+Specify the working directory from which doxygen will run:
+<directory for temp doxygen processing>
+
+WIZARD TAB
+Project name: List11Python
+Project version or id: 1.0.0
+Source code directory: <root path to my project>
+Scan recursively: True
+Destination directory: <root path to my project>/docs
+
+RUN TAB
+Just click "Run doxygen"
+
+After finishing, documentation will be available in:
+<root path to my project>/docs/index.html 
